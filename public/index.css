@@ -1,0 +1,132 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* navbar button */
+.nb_btn{
+  background-color: #43DDE6;
+  border-radius: 20px;
+  transition: opacity 0.4s;
+  padding: 0 30px;
+  height: 30px;
+  margin-top: 1.5%;
+}
+
+.nb_btn:hover{
+    background-color: #43DDE6 !important;
+    opacity: 0.8;
+}
+
+/* normal blue button */
+.b_btn{
+  background-color: #43DDE6;
+  border-radius: 20px;
+  transition: opacity 0.4s;
+  padding: 0 30px;
+  margin-top: 2.3%;
+}
+
+.b_btn:hover{
+    background-color: #43DDE6 !important;
+    opacity: 0.8;
+}
+
+/* image of intro*/
+.intro-image{
+width: 23em;
+max-width: 100%;
+height: 27.3em;
+}
+
+
+
+/* content style*/
+p{
+  color: #333333;
+}
+
+.div-clr{
+  background-color: #364F6B;
+}
+
+
+/* Carousel Button*/
+.cl-btn{
+  left: -6%;
+}
+
+.cr-btn{
+  right: -6%;
+}
+
+/* Carousel company logos*/
+.company-logo{
+  margin: 5% 1% 5% 9%;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    /* Set the hr color */
+    color: white; /* old IE */
+    background-color: white; /* Modern Browsers */
+    opacity: 1
+}
+
+
+/* text in the middle of hr */
+.lines {
+    position: relative;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 0 auto;
+    border-top: 2px solid white;
+    margin-top: 20px;
+    width: 80%;
+    color: white;
+}
+
+.lines:before{
+    content: attr(data-text);
+    background-color: #364F6B;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    width: 220px;
+    margin-left: -110px;
+    padding: 10px;
+    top: -25px;
+}
+
+
+/* formatting social media icons */
+i.fa-brands {
+  display: inline-block;
+  border-radius: 100%;
+  box-shadow: 0 0 2px #888;
+  padding: 0.7em 0.3em;
+
+}
+.icon-link{
+  text-decoration: none;
+  color: black;
+
+}
+
+
+input[type=text], input[type=email], input[type=tel], textarea.only_one_textarea{
+  background-color: #394149;
+  border:none;
+  color:white;
+}
+input[type=text]:focus, input[type=email]:focus, input[type=tel]:focus, textarea.only_one_textarea:focus{
+  background-color: #394149;
+  border:none;
+  color:white;
+}
+textarea{
+  background-color: #394149;
+  border:none;
+  color:white;
+}
